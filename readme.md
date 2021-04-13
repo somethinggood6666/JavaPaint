@@ -16,6 +16,7 @@ _________________
 Реализована возможность добавления своего плагина любой фигуры (в папке ../PLUGINS лежит плагин 
 FigureTrapezoid для примера). После компиляции плагина, перемещения .jar файла в папку resources/
 lib и добавления в pom.xml зависимости вида
+
         <dependency>
             <groupId>org.example2</groupId>
             <artifactId>Trapezoid</artifactId>
@@ -23,4 +24,5 @@ lib и добавления в pom.xml зависимости вида
             <scope>system</scope>
             <systemPath>${basedir}/src/main/resources/lib/Trapezoid-1.0-SNAPSHOT.jar</systemPath>
         </dependency>
+        
 на панели инструментов выбираем N в кружочке и рисуем новую фигуру.
